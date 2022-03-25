@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -23,7 +23,7 @@ nav {
 
 .header-logo {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 900;
     color: #f9faf8;
 }
 
@@ -85,6 +85,8 @@ a {
 }
 
 h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
     font-size: 36px;
     font-weight: 900;
@@ -93,8 +95,6 @@ h2 {
 
 .info {
     display: flex;
-    justify-content: space-between;
-    width: 10em;
     gap: 50px;
 }
 
@@ -106,12 +106,41 @@ h2 {
 }
 
 #information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-left: 260px;
     padding-right: 260px;
+    padding-bottom: 6em;
 }
 
 .subtext {
     font-size: 18px;
     color:rgba(103, 103, 103);
     text-align: center;
+}
+
+.some-quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding-left: 300px;
+    padding-right: 280px;
+    padding-top: 6em;
+    padding-bottom: 6em;
+    color: #1f2937;
+}
+
+.some-quote>p {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 700;
 }
