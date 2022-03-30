@@ -174,3 +174,12 @@ a {
     margin-top: -15px;
     font-size: 18px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-size: 18px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
