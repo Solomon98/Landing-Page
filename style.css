@@ -84,7 +84,7 @@ a {
     align-items: center;
 }
 
-h2 {
+#information>h2 {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
@@ -143,4 +143,34 @@ h2 {
     align-self: flex-end;
     font-size: 24px;
     font-weight: 700;
+}
+
+.call-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin: 5em 15em;
+    padding: 4em 8em;
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 45em;
+    height: 4px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    width: 8em;
+    border: 2px solid;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.action>p {
+    margin-top: -15px;
+    font-size: 18px;
 }
